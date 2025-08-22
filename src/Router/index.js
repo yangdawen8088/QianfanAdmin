@@ -9,7 +9,7 @@ import { Session } from "@/Utils/storage";
 const storesUseAppSettings = useAppSettings(pinia);
 const storesUseKeepALiveNames = useKeepALiveNames(pinia);
 export const routes = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHashHistory(import.meta.env.VITE_BASE_PATH),
   routes: [...dynamicRoutes, ...errorPages]
 });
 

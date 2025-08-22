@@ -10,6 +10,8 @@
 ## 项目介绍      
 &emsp;&emsp;QinfanAdmin 是一个基于 Vue3.0 + Vite + Pinia + Element Plus + JavaScript + Vue Router 等技术栈，实现了多主题、多布局、多页签、页面模板等功能，具备高度可定制化，可以快速构建企业级后台管理系统。       
 
+> **阅览地址：** [https://yangdawen8088.github.io/QianfanAdmin/#/Backend/Dashboard](https://yangdawen8088.github.io/QianfanAdmin/#/Backend/Dashboard)
+
 ## 项目特点     
 ### 1、搭载常规的 5 种布局切换：     
 &emsp;&emsp;五种布局切换自带渐进性过度动画，让页面更加丝滑无痕，提升用户体验。切换布局，路由组件不会被销毁，而是复用，提升性能与用户体验。

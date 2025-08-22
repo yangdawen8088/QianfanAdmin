@@ -9,7 +9,7 @@ import ElementPlus from 'unplugin-element-plus/vite'
 
 // https://vitejs.dev/config/
 const viteConfig = defineConfig((mode) => {
-  // const env = loadEnv(mode.mode, process.cwd())
+  const env = loadEnv(mode.mode, process.cwd())
   return {
     plugins: [
       vue({
@@ -47,6 +47,8 @@ const viteConfig = defineConfig((mode) => {
         useSource: true,
       }),
     ],
+    publicDir: 'docs',
+    base: '/QianfanAdmin/',
     resolve: {
       alias: {
         "@": resolve(__dirname, './src/')
