@@ -1,1 +1,0 @@
-import{_ as o}from"./PageContainer-44a5c8a1.js";import{_ as t,o as r,b as s,d as _,e as a}from"./index-5ad95318.js";const c={};function l(u,e){const n=o;return r(),s(n,null,{Default:_(()=>e[0]||(e[0]=[a("div",null,"菜单管理页面",-1)])),_:1})}const p=t(c,[["render",l]]);export{p as default};

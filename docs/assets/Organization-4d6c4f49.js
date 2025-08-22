@@ -1,1 +1,0 @@
-import{_ as e}from"./PageContainer-44a5c8a1.js";import{_ as t,o as a,b as r,d as s,e as _}from"./index-5ad95318.js";const c={};function i(l,n){const o=e;return a(),r(o,null,{Default:s(()=>n[0]||(n[0]=[_("div",null,"组织架构页面",-1)])),_:1})}const u=t(c,[["render",i]]);export{u as default};

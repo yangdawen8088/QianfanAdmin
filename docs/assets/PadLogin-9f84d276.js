@@ -1,1 +1,0 @@
-import{_ as t,o,c as r,g as s,e as n,Q as l,F as c}from"./index-5ad95318.js";const d={};function f(a,e){return o(),r(c,null,[e[0]||(e[0]=s(" Pad端 ")),n("div",null,[l(a.$slots,"default")])],64)}const _=t(d,[["render",f]]);export{_ as default};

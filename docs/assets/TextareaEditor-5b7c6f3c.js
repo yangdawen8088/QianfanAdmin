@@ -1,1 +1,0 @@
-import{_ as t}from"./PageContainer-44a5c8a1.js";import{_ as n,o as r,b as a,d as s,e as _}from"./index-5ad95318.js";const c={};function i(l,e){const o=t;return r(),a(o,null,{Default:s(()=>e[0]||(e[0]=[_("div",null,"富文本编辑器页面",-1)])),_:1})}const u=n(c,[["render",i]]);export{u as default};
