@@ -1,0 +1,1 @@
+import{_ as o}from"./PageContainer-ecfcb526.js";import{_ as t,o as r,b as a,d as s,e as _}from"./index-1bf5b03d.js";const c={};function f(l,e){const n=o;return r(),a(n,null,{Default:s(()=>e[0]||(e[0]=[_("div",null,"接口管理页面",-1)])),_:1})}const u=t(c,[["render",f]]);export{u as default};

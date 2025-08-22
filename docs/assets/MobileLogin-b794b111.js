@@ -1,1 +1,0 @@
-import{_ as t,o as r,c as s,g as a,e as n,Q as l,F as c}from"./index-00b30bcd.js";const d={};function f(o,e){return r(),s(c,null,[e[0]||(e[0]=a(" 移动端 ")),n("div",null,[l(o.$slots,"default")])],64)}const u=t(d,[["render",f]]);export{u as default};

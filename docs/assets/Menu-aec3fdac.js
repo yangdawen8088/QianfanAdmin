@@ -1,0 +1,1 @@
+import{_ as o}from"./PageContainer-ecfcb526.js";import{_ as t,o as r,b as s,d as _,e as a}from"./index-1bf5b03d.js";const c={};function l(u,e){const n=o;return r(),s(n,null,{Default:_(()=>e[0]||(e[0]=[a("div",null,"菜单管理页面",-1)])),_:1})}const p=t(c,[["render",l]]);export{p as default};

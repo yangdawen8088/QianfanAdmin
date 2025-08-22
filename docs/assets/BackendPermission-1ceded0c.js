@@ -1,0 +1,1 @@
+import{_ as o}from"./PageContainer-ecfcb526.js";import{_ as t,o as s,b as r,d as a,e as _}from"./index-1bf5b03d.js";const c={};function i(l,e){const n=o;return s(),r(n,null,{Default:a(()=>e[0]||(e[0]=[_("div",null,"后端权限页面",-1)])),_:1})}const p=t(c,[["render",i]]);export{p as default};

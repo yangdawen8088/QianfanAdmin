@@ -1,0 +1,1 @@
+import{_ as o}from"./PageContainer-ecfcb526.js";import{_ as t,o as r,b as a,d as s,e as _}from"./index-1bf5b03d.js";const c={};function i(l,n){const e=o;return r(),a(e,null,{Default:s(()=>n[0]||(n[0]=[_("div",null,"拖拽页面",-1)])),_:1})}const u=t(c,[["render",i]]);export{u as default};

@@ -1,0 +1,1 @@
+import{_ as o}from"./PageContainer-ecfcb526.js";import{_ as t,o as s,b as a,d as r,e as _}from"./index-1bf5b03d.js";const c={};function l(f,e){const n=o;return s(),a(n,null,{Default:r(()=>e[0]||(e[0]=[_("div",null,"通知消息页面",-1)])),_:1})}const u=t(c,[["render",l]]);export{u as default};
