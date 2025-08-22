@@ -1,16 +1,32 @@
 :root {
+  height: 100%;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, noto sans, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+::view-transition-new(root),
+::view-transition-old(root) {
+  animation: none !important;
+  mix-blend-mode: normal !important;
+}
+::selection{
+  background-color: var(--el-color-primary);
+  color: var(--el-text-color-primary);
+  font-weight: bold;
 }
 
 body {
-  margin: 0;
+  margin: 0px;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  height: 100vh;
-  width: 100vw;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+  height: 100%;
 }

@@ -1,17 +1,20 @@
 import { createApp } from 'vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import '@/Styles/theme/dark.scss'
+import '@/Styles/theme/light.scss'
+import '@/Styles/theme/darkBlue.scss'
+import '@/style.css';
+import '@/Styles/app.scss';
+import '@/Styles/mixin.scss';
+import '@/Styles/animate.min.css';
+import '@/Styles/iconfont/iconfont.css'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 import * as ElementPlusIcons from '@element-plus/icons-vue'
 import pinia from '@/Stores/index'
-import App from './App.vue'
-import router from './Router'
-import '@/Styles/app.scss';
-import '@/Styles/index.scss';
-import '@/Styles/elementUI.scss';
-import '@/Styles/special.scss';
-import globalComponent from '@/Components/index.js'
-import '@/Styles/iconfont/iconfont.css'
+import App from '@/App.vue'
+import router from '@/Router'
+// import globalComponent from '@/Components/index.js'
 
 
 const app = createApp(App)
@@ -21,5 +24,5 @@ for (const name in ElementPlusIcons) {
 }
 app.use(pinia)
 app.use(router)
-app.use(globalComponent)
+// app.use(globalComponent)
 app.mount('#app')

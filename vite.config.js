@@ -35,6 +35,8 @@ const viteConfig = defineConfig((mode) => {
         resolvers: [ElementPlusResolver()],
       }),
       Components({
+        deep: true,
+        dirs: ['src/Components'],
         resolvers: [
           //特别注意importStyle不要搞错啦
           ElementPlusResolver({ importStyle: "sass" })
@@ -54,12 +56,12 @@ const viteConfig = defineConfig((mode) => {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: `@use "@/Styles/elementUI.scss" as *;`,
+          // additionalData: `@use "@/Styles/elementUI.scss" as *;`,
         },
       },
     },
     server: {
-      port: import.meta.env.VITE_PORT,
+      port: 8082,
       proxy: {
         '/api': {
           changeOrigin: true,

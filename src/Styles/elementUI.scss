@@ -1,18 +1,15 @@
-@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: (
-    'primary': ( // 主色
-      'base': #4d5fec,
+@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: ('white': #ffffff,
+    'black': #000000,
+    'primary': ('base': #409eff,
     ),
-    'success': ( // 成功色
-      'base': #a0acf6,
+    'success': ('base': #67c23a,
     ),
-    'warning': ( // 警告色
-      'base': #ffb302,
+    'warning': ('base': #e6a23c,
     ),
-    'danger': ( // 危险色
-      'base': #ff4e4e,
+    'danger': ('base': #f56c6c,
     ),
-    'error': ( // 错误色
-      'base': #cf4444,
+    'error': ('base': #f56c6c,
     ),
-  ),
-);
+    'info': ('base': #909399,
+    ),
+  ));

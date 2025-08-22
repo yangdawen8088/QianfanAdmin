@@ -1,0 +1,78 @@
+/* 字体大小全局样式
+------------------------------- */
+@for $i from 1 through 100 {
+  .font-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
+/* 左外边距
+------------------------------- */
+@for $i from 1 through 1000 {
+  .m-l-#{$i} {
+    margin-left: #{$i}px !important;
+  }
+}
+
+/* 右外边距
+------------------------------- */
+@for $i from 1 through 1000 {
+  .m-r-#{$i} {
+    margin-right: #{$i}px !important;
+  }
+}
+
+/* 上外边距
+------------------------------- */
+@for $i from 1 through 1000 {
+  .m-t-#{$i} {
+    margin-top: #{$i}px !important;
+  }
+}
+
+/* 下外边距
+------------------------------- */
+@for $i from 1 through 1000 {
+  .m-b-#{$i} {
+    margin-bottom: #{$i}px !important;
+  }
+}
+
+/* 左右内边距
+------------------------------- */
+@for $i from 1 through 100 {
+  .p-#{$i} {
+    padding: #{$i}px !important;
+  }
+}
+
+/* 左右内边距
+------------------------------- */
+@for $i from 1 through 100 {
+  .p-lr-#{$i} {
+    padding-left: #{$i}px !important;
+    padding-right: #{$i}px !important;
+  }
+}
+
+/* 多行显示，溢出显示省略号
+------------------------------- */
+@for $i from 1 through 100 {
+  .el-#{$i} {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: #{$i};
+    line-clamp: #{$i};
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+/* 单行显示，溢出显示省略号
+------------------------------- */
+.ellipsis-one {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

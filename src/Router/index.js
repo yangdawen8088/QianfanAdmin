@@ -1,10 +1,13 @@
 import { createRouter, createWebHashHistory } from "vue-router"
-import { dynamicRoutes, errorPages } from '@/router/route'
-import pinia from '@/stores/index';
-import { useRouteList } from '@/stores/routeList';
-import { useThemeConfig } from '@/stores/themeConfig';
-import { Session } from "@/utils/storage";
-const storesUseThemeConfig = useThemeConfig(pinia);
+import { dynamicRoutes, errorPages } from '@/Router/route'
+import pinia from '@/Stores/index';
+import { useRouteList } from '@/Stores/routeList';
+import { storeToRefs } from 'pinia';
+import { useKeepALiveNames } from '@/Stores/keepAliveNames';
+import { useAppSettings } from '@/Stores/appSettings.js';
+import { Session } from "@/Utils/storage";
+const storesUseAppSettings = useAppSettings(pinia);
+const storesUseKeepALiveNames = useKeepALiveNames(pinia);
 export const routes = createRouter({
   history: createWebHashHistory(),
   routes: [...dynamicRoutes, ...errorPages]
@@ -12,8 +15,11 @@ export const routes = createRouter({
 
 const storesUseRouteList = useRouteList(pinia);
 storesUseRouteList.setRoutesList(dynamicRoutes[0].children);
+const { appSettings, systemTheme } = storeToRefs(useAppSettings());
 routes.beforeEach((to, form, next) => {
-  if (to.path.toLowerCase().startsWith('/backend')) {
+  storesUseKeepALiveNames.addCachedView(to);
+  // if (to.path.toLowerCase().startsWith('/backend')) {
+  if (false) {
     const token = Session.get('token');
     if (token === null || token === undefined || token === '') {
       next('/Login');
@@ -22,9 +28,8 @@ routes.beforeEach((to, form, next) => {
     }
   } else {
     window.scrollTo(0, 0);
-    storesUseThemeConfig.changeIsShowOverview(true);
-    storesUseThemeConfig.changeDocumentTitle(to.meta.title);
+    storesUseAppSettings.changeDocumentTitle(to.meta.title);
     next();
   }
-})
+});
 export default routes;

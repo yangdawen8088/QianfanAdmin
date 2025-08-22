@@ -1,0 +1,227 @@
+{
+  "dark": {
+    "name": "夜间深色",
+    "colorSummary": [
+      "#141414",
+      "#CFD3DC",
+      "#409eff",
+      "#67c23a",
+      "#e6a23c",
+      "#f56c6c"
+    ],
+    "colorTypes": [
+      {
+        "key": "topNavBGColor",
+        "value": "transparent",
+        "property": "--qf-topnav-bg-color"
+      },
+      {
+        "key": "topNavFontColor",
+        "value": "var(--el-menu-text-color)",
+        "property": "--qf-topnav-font-color"
+      },
+      {
+        "key": "menuBarBGColor",
+        "value": "transparent",
+        "property": "--qf-menubar-bg-color"
+      },
+      {
+        "key": "menuBarFontColor",
+        "value": "var(--el-menu-text-color)",
+        "property": "--qf-menubar-font-color"
+      },
+      {
+        "key": "pageFooterBGColor",
+        "value": "transparent",
+        "property": "--qf-pagefooter-bg-color"
+      },
+      {
+        "key": "pageFooterFontColor",
+        "value": "var(--el-text-color-primary)",
+        "property": "--qf-pagefooter-font-color"
+      },
+      {
+        "key": "sidebarBGColor",
+        "value": "var(--el-bg-color-page)",
+        "property": "--qf-sidebar-bg-color"
+      },
+      {
+        "key": "sidebarFontColor",
+        "value": "var(--el-text-color-primary)",
+        "property": "--qf-sidebar-font-color"
+      }
+    ],
+    "functionColor": [
+      {
+        "key": "primaryColor",
+        "value": "#1890ff"
+      },
+      {
+        "key": "successColor",
+        "value": "#67C23A"
+      },
+      {
+        "key": "warningColor",
+        "value": "#E6A23C"
+      },
+      {
+        "key": "dangerColor",
+        "value": "#F56C6C"
+      },
+      {
+        "key": "infoColor",
+        "value": "#909399"
+      }
+    ]
+  },
+  "light": {
+    "name": "白天浅色",
+    "colorSummary": [
+      "#ffffff",
+      "#606266",
+      "#409eff",
+      "#67c23a",
+      "#e6a23c",
+      "#f56c6c"
+    ],
+    "colorTypes": [
+      {
+        "key": "topNavBGColor",
+        "value": "transparent",
+        "property": "--qf-topnav-bg-color"
+      },
+      {
+        "key": "topNavFontColor",
+        "value": "var(--el-menu-text-color)",
+        "property": "--qf-topnav-font-color"
+      },
+      {
+        "key": "menuBarBGColor",
+        "value": "transparent",
+        "property": "--qf-menubar-bg-color"
+      },
+      {
+        "key": "menuBarFontColor",
+        "value": "var(--el-menu-text-color)",
+        "property": "--qf-menubar-font-color"
+      },
+      {
+        "key": "pageFooterBGColor",
+        "value": "transparent",
+        "property": "--qf-pagefooter-bg-color"
+      },
+      {
+        "key": "pageFooterFontColor",
+        "value": "var(--el-text-color-primary)",
+        "property": "--qf-pagefooter-font-color"
+      },
+      {
+        "key": "sidebarBGColor",
+        "value": "var(--el-color-primary-light-8)",
+        "property": "--qf-sidebar-bg-color"
+      },
+      {
+        "key": "sidebarFontColor",
+        "value": "var(--el-text-color-primary)",
+        "property": "--qf-sidebar-font-color"
+      }
+    ],
+    "functionColor": [
+      {
+        "key": "primaryColor",
+        "value": "#1890ff"
+      },
+      {
+        "key": "successColor",
+        "value": "#67C23A"
+      },
+      {
+        "key": "warningColor",
+        "value": "#E6A23C"
+      },
+      {
+        "key": "dangerColor",
+        "value": "#F56C6C"
+      },
+      {
+        "key": "infoColor",
+        "value": "#909399"
+      }
+    ]
+  },
+  "darkBlue": {
+    "name": "梦幻深蓝",
+    "colorSummary": [
+      "#374357",
+      "#0f1c2e",
+      "#1f2b3e",
+      "#00babd",
+      "#3D5A80",
+      "#5a7a94"
+    ],
+    "colorTypes": [
+      {
+        "key": "topNavBGColor",
+        "value": "#374357ff",
+        "property": "--qf-topnav-bg-color"
+      },
+      {
+        "key": "topNavFontColor",
+        "value": "#e0e0e0",
+        "property": "--qf-topnav-font-color"
+      },
+      {
+        "key": "menuBarBGColor",
+        "value": "#1f2b3eff",
+        "property": "--qf-menubar-bg-color"
+      },
+      {
+        "key": "menuBarFontColor",
+        "value": "#FFFFFF",
+        "property": "--qf-menubar-font-color"
+      },
+      {
+        "key": "pageFooterBGColor",
+        "value": "#374357ff",
+        "property": "--qf-pagefooter-bg-color"
+      },
+      {
+        "key": "pageFooterFontColor",
+        "value": "#e0e0e0",
+        "property": "--qf-pagefooter-font-color"
+      },
+      {
+        "key": "sidebarBGColor",
+        "value": "#0f1c2eff",
+        "property": "--qf-sidebar-bg-color"
+      },
+      {
+        "key": "sidebarFontColor",
+        "value": "#e0e0e0",
+        "property": "--qf-sidebar-font-color"
+      }
+    ],
+    "functionColor": [
+      {
+        "key": "primaryColor",
+        "value": "#00babd"
+      },
+      {
+        "key": "successColor",
+        "value": "#67C23A"
+      },
+      {
+        "key": "warningColor",
+        "value": "#E6A23C"
+      },
+      {
+        "key": "dangerColor",
+        "value": "#F56C6C"
+      },
+      {
+        "key": "infoColor",
+        "value": "#909399"
+      }
+    ]
+  }
+}
