@@ -1,0 +1,1 @@
+import{_ as n}from"./PageContainer-44a5c8a1.js";import{_ as t,o as r,b as a,d as s,e as _}from"./index-5ad95318.js";const c={};function i(f,e){const o=n;return r(),a(o,null,{Default:s(()=>e[0]||(e[0]=[_("div",null,"验证码页面",-1)])),_:1})}const u=t(c,[["render",i]]);export{u as default};

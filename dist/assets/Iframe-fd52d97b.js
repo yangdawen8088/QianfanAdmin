@@ -1,0 +1,1 @@
+import{_ as o}from"./PageContainer-44a5c8a1.js";import{_ as t,o as r,b as a,d as s,e as _}from"./index-5ad95318.js";const c={};function f(l,e){const n=o;return r(),a(n,null,{Default:s(()=>e[0]||(e[0]=[_("div",null,"内联页面",-1)])),_:1})}const p=t(c,[["render",f]]);export{p as default};
